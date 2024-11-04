@@ -39,5 +39,5 @@ wss.on('connection', (ws) => {
 });
 
 server.listen(process.env.PORT || 8080, () => {
-    console.log('Servidor WebSocket escuchando');
+    console.log(`Servidor WebSocket escuchando en el puerto ${process.env.PORT || 8080}`);
 });
